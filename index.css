@@ -50,3 +50,24 @@ body {
     color: var(--white);
     background-color: var(--midnightBlue);
 }
+
+/* === MENUBOX === */
+
+.menuBox {
+    width: 100vw;
+    height: 94px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.5px solid var(--gray);
+}
+
+.menuBox__menu {
+    position: absolute;
+}
+
+.menuBox__logo {
+    width: 70px;
+    height: 60px;
+}
