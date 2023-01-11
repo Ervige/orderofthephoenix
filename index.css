@@ -35,7 +35,7 @@
     --titleFont: "BluuNext-Titling", sans-serif;
     --boldFont: "BluuNext-Bold", sans-serif;
     --boldItalicFont: "BluuNext-Bolditalic", sans-serif;
-    
+
     --white: #f9f4f2;
     --lilac: #6b63b5;
     --purple: #514a92;
@@ -64,10 +64,72 @@ body {
 }
 
 .menuBox__menu {
+    display: none;
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.menuBox__menu--active {
+    display: block;
+}
+
+.menuBox__menu--color {
+    background-color: var(--midnightBlue);
+}
+
+.menuBox__button {
+    margin: 35px 0 30px 32px;
+    border: none;
+    background: transparent;
+}
+
+.menuBox__icon {
+    width: 25px;
+    height: 25px;
+}
+
+.menuBox__list {
+    border-top: 1px solid var(--gray);
+    padding-top: 15px;
+    list-style-type: none;
+}
+
+.menuBox__item {
+    font-size: 18px;
+    font-family: var(--boldFont);
+    padding: 15px 15px 15px 32px;
+    text-transform: uppercase;
+    animation: slideMenuRight 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.menuBox__link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menuBox__link:hover,
+.menuBox__link:active {
+    color: var(--lilac);
 }
 
 .menuBox__logo {
-    width: 70px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
+}
+
+/* === ANIMATIONS === */
+
+@keyframes slideMenuRight {
+    0% {
+        -webkit-transform: translateX(-100px);
+        transform: translateX(-100px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
 }

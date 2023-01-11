@@ -1,28 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="index.css" rel="stylesheet" />
-    <title>Order of the Phoenix</title>
-  </head>
-  <body>
-    <header>
-      <div class="menuBox">
-        <div class="menuBox__menu">
-          <!-- TODO: menu mobile -->
-        </div>
-        <figure>
-          <img
-            src="./images/mainLogo.png"
-            alt="Phoenix logo"
-            class="menuBox__logo"
-          />
-        </figure>
-      </div>
-    </header>
-    <main></main>
-    <footer></footer>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="index.css" rel="stylesheet" />
+  <title>Order of the Phoenix</title>
+</head>
+
+<body>
+  <header>
+    <div class="menuBox">
+      <nav class="menuBox__menu menuBox__menu--active">
+        <button id="openMenuButton" class="menuBox__button">
+          <img class="menuBox__icon" src="./icons/menu.svg" />
+        </button>
+      </nav>
+      <nav class="menuBox__menu menuBox__menu--color">
+        <button id="closeMenuButton" class="menuBox__button">
+          <img class="menuBox__icon" src="./icons/close.svg" />
+        </button>
+        <ul class="menuBox__list">
+          <li class="menuBox__item">
+            <a class="menuBox__link" href="#">
+              News & features
+            </a>
+          </li>
+          <li class="menuBox__item">
+            <a class="menuBox__link" href="#">
+              Quizzes & puzzles
+            </a>
+          </li>
+          <li class="menuBox__item">
+            <a class="menuBox__link" href="#">
+              J.K. Rowling archive
+            </a>
+          </li>
+          <li class="menuBox__item">
+            <a class="menuBox__link" href="#">
+              Discover
+            </a>
+          </li>
+          <li class="menuBox__item">
+            <a class="menuBox__link" href="#">
+              Hogwarts sorting
+            </a>
+          </li>
+          <li class="menuBox__item">
+            <a class="menuBox__link" href="#">
+              For kids
+            </a>
+          </li>
+          <li class="menuBox__item">
+            <a class="menuBox__link" href="#">
+              Portrait maker
+            </a>
+          </li>
+          <li class="menuBox__item">
+            <a class="menuBox__link" href="#">
+              Hogwarts legacy
+            </a>
+          </li>
+          <li class="menuBox__item">
+            <a class="menuBox__link" href="#">
+              Shop
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <figure>
+        <img src="./images/mainLogo.png" alt="Phoenix logo" class="menuBox__logo" />
+      </figure>
+    </div>
+  </header>
+  <main></main>
+  <footer></footer>
+</body>
+<script src="index.js"></script>
+
 </html>
