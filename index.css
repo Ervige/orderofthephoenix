@@ -120,6 +120,32 @@ body {
     height: 50px;
 }
 
+/* === MAINBOX === */
+
+.heroBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em 0;
+}
+
+.heroBox__title {
+    font-family: var(--mainFont);
+    text-align: center;
+}
+
+.heroBox__button {
+    border: 1em solid transparent;
+    border-radius: 3em;
+    margin: 2em 0;
+    background-color: var(--purple);
+    color: var(--white);
+    font-family: var(--titleFont);
+    padding: 0 3em;
+    letter-spacing: 0.2em;
+}
+
 /* === ANIMATIONS === */
 
 @keyframes slideMenuRight {
