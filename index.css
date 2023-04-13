@@ -188,6 +188,28 @@ body {
     font-family: var(--titleFont);
     margin: -1.5em 1.5em;
 }
+/* === MAINSLIDER === */
+
+.sliderButton {
+    display: flex;
+    margin: 3em;
+}
+
+.sliderButton > .sliderButton__item {
+    color: var(--white);
+    opacity: 80%;
+}
+
+.sliderButton > .sliderButton__item ~ .sliderButton__item {
+    opacity: 30%;
+}
+
+.sliderButton__line {
+    height: 0.1em;
+    width: 15em;
+    opacity: 30%;
+    margin-top: 0.4em;
+}
 
 /* === ANIMATIONS === */
 
