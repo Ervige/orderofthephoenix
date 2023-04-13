@@ -124,6 +124,30 @@ body {
     width: 100%;
 }
 
+/* === MAIN === */
+
+.sliderButton {
+    display: flex;
+    flex-direction: row;
+    margin: 3em;
+}
+
+.sliderButton > .sliderButton__item {
+    color: var(--white);
+    opacity: 80%;
+}
+
+.sliderButton > .sliderButton__item ~ .sliderButton__item {
+    opacity: 30%;
+}
+
+.sliderButton__line {
+    height: 0.1em;
+    width: 15em;
+    opacity: 30%;
+    margin-top: 0.4em;
+}
+
 /* === ANIMATIONS === */
 
 @keyframes slideMenuRight {
