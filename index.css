@@ -124,6 +124,44 @@ body {
     width: 100%;
 }
 
+/* === MAIN === */
+
+.homeSlider {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.homeSlider__link {
+    color: var(--white);
+}
+
+.homeSlider__picture {
+    position: relative;
+    z-index: 0;
+    opacity: 70%;
+}
+
+.homeSlider__category,
+.homeSlider__headline {
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.homeSlider__category {
+    bottom: 3em;
+    left: 2.3em;
+    font-size: 1em;
+    font-family: var(--boldFont);
+}
+
+.homeSlider__headline {
+    font-size: 1.5em;
+    font-family: var(--titleFont);
+    margin: -1.5em 1.5em;
+}
+
 /* === ANIMATIONS === */
 
 @keyframes slideMenuRight {
