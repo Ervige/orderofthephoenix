@@ -120,6 +120,10 @@ body {
     height: 50px;
 }
 
+.logoBox__img {
+    width: 100%;
+}
+
 /* === ANIMATIONS === */
 
 @keyframes slideMenuRight {
