@@ -78,6 +78,7 @@ body {
 
 .menuBox__menu--color {
     background-color: var(--midnightBlue);
+    z-index: 2;
 }
 
 .menuBox__button {
@@ -120,11 +121,37 @@ body {
     height: 50px;
 }
 
+/* === HEROBOX === */
+
+.heroBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em 0;
+}
+
+.heroBox__title {
+    font-family: var(--mainFont);
+    text-align: center;
+}
+
+.heroBox__button {
+    border: 1em solid transparent;
+    border-radius: 3em;
+    margin: 2em 0;
+    background-color: var(--purple);
+    color: var(--white);
+    font-family: var(--titleFont);
+    padding: 0 3em;
+    letter-spacing: 0.2em;
+}
+
 .logoBox__img {
     width: 100%;
 }
 
-/* === MAIN === */
+/* === HOMESLIDER === */
 
 .homeSlider {
     display: flex;
