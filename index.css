@@ -167,6 +167,7 @@ body {
     position: relative;
     z-index: 0;
     opacity: 70%;
+    width: 100%;
 }
 
 .homeSlider__category,
