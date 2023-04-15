@@ -211,6 +211,57 @@ body {
     margin-top: 0.4em;
 }
 
+/* === FEATURECONTENT === */
+
+.featureContent {
+    padding-bottom: 4em;
+}
+
+.featureContent__picture {
+    width: 100%;
+}
+
+.featureContent__category,
+.featureContent__headline,
+.featureContent__underline {
+    text-align: end;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.featureContent__category {
+    bottom: -3.3em;
+    right: 2.3em;
+    font-size: 1em;
+    font-family: var(--boldFont);
+}
+
+.featureContent__headline {
+    font-size: 1.5em;
+    font-family: var(--titleFont);
+    margin: -1.5em 1.5em;
+}
+
+.featureContent__underline {
+    font-family: var(--mainfont);
+    margin: 2em 2em;
+}
+
+.newsletter__button {
+        border: 1em solid transparent;
+        border-radius: 3em;
+        margin-top: 2em;
+        margin-left: 8em;
+        background-color: var(--purple);
+        color: var(--white);
+        font-family: var(--titleFont);
+        padding: 0 3em;
+        letter-spacing: 0.2em;
+        width: 60%;
+        text-align: center;
+}
+
 /* === ANIMATIONS === */
 
 @keyframes slideMenuRight {
