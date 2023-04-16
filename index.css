@@ -212,39 +212,39 @@ body {
     margin-top: 0.4em;
 }
 
-/* === FEATURECONTENT === */
+/* === FANCLUBCONTENT === */
 
-.featureContent {
+.fanclubContent {
     padding-bottom: 4em;
 }
 
-.featureContent__picture {
+.fanclubContent__picture {
     width: 100%;
 }
 
-.featureContent__category,
-.featureContent__headline,
-.featureContent__underline {
+.fanclubContent__category,
+.fanclubContent__headline,
+.fanclubContent__underline {
     text-align: end;
     position: absolute;
     cursor: pointer;
     z-index: 1;
 }
 
-.featureContent__category {
+.fanclubContent__category {
     bottom: -3.3em;
     right: 2.3em;
     font-size: 1em;
     font-family: var(--boldFont);
 }
 
-.featureContent__headline {
+.fanclubContent__headline {
     font-size: 1.5em;
     font-family: var(--titleFont);
     margin: -1.5em 1.5em;
 }
 
-.featureContent__underline {
+.fanclubContent__underline {
     font-family: var(--mainfont);
     margin: 2em 2em;
 }
