@@ -286,14 +286,51 @@ body {
 .watch__button {
     border: 1em solid transparent;
     border-radius: 3em;
-    margin: 7em 2em;
+    margin: 11em 2em 2em 2em;
     background-color: var(--purple);
     color: var(--white);
     font-family: var(--titleFont);
-    padding: 0 3em;
     letter-spacing: 0.2em;
     width: 60%;
     text-align: center;
+}
+
+/* === HOGWARTSLEGACYCONTENT === */
+
+.hogwartsLegacyContent {
+    padding-bottom: 4em;
+}
+
+.hogwartsLegacyContent__headline,
+.hogwartsLegacyContent__underline {
+    text-align: end;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.hogwartsLegacyContent__headline {
+    font-size: 1.5em;
+    font-family: var(--titleFont);
+    margin: -3em 1.5em;
+}
+
+.hogwartsLegacyContent__underline {
+    font-family: var(--mainfont);
+    margin: 2em 2em;
+}
+
+.connect__button {
+        border: 1em solid transparent;
+        border-radius: 3em;
+        margin: 5em 8em;
+        background-color: var(--purple);
+        color: var(--white);
+        font-family: var(--titleFont);
+        padding: 0 3em;
+        letter-spacing: 0.2em;
+        width: 60%;
+        text-align: center;
 }
 
 /* === ANIMATIONS === */
