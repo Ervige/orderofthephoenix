@@ -286,7 +286,7 @@ body {
 .watch__button {
     border: 1em solid transparent;
     border-radius: 3em;
-    margin: 11em 2em;
+    margin: 11em 2em 2em;
     background-color: var(--purple);
     color: var(--white);
     font-family: var(--titleFont);
