@@ -232,7 +232,7 @@ body {
 }
 
 .fanclubContent__category {
-    bottom: 7em;
+    bottom: -1em;
     right: 2.3em;
     font-size: 1em;
     font-family: var(--boldFont);
