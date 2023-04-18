@@ -498,7 +498,7 @@ body {
 
 .mobileFooter__text {
     font-family: var(--mainFont);
-    font-size: small;
+    font-size: 0.8em;
     color: var(--gray);
     text-align: center;
 }
