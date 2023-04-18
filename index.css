@@ -117,8 +117,8 @@ body {
 }
 
 .menuBox__logo {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 60px;
 }
 
 /* === HEROBOX === */
@@ -145,6 +145,12 @@ body {
     font-family: var(--titleFont);
     padding: 0 3em;
     letter-spacing: 0.2em;
+    text-decoration: none;
+}
+
+.heroBox__button:hover {
+    background-color: var(--white);
+    color: var(--lilac);
 }
 
 .logoBox__img {
@@ -262,6 +268,16 @@ body {
         text-align: center;
 }
 
+.newsletter__button:hover {
+    background-color: var(--white);
+    color: var(--lilac);
+}
+
+.newsletter__buttonLink {
+    text-decoration: none;
+    color: var(--white);
+}
+
 /* === FOUNDERSCONTENT === */
 
 .foundersContent__headline,
@@ -293,6 +309,16 @@ body {
     letter-spacing: 0.2em;
     width: 60%;
     text-align: center;
+}
+
+.watch__button:hover {
+    background-color: var(--white);
+    color: var(--lilac);
+}
+
+.watch__buttonLink {
+    text-decoration: none;
+    color: var(--white);
 }
 
 /* === HOGWARTSLEGACYCONTENT === */
@@ -346,6 +372,8 @@ body {
 
 .latestNewsContainer__headline {
     font-family: var(--mainFont);
+    text-decoration: none;
+    color: var(--white);
 }
 
 .latestNewsContainer__picture {
@@ -381,6 +409,10 @@ body {
     margin: 0 1em;
 }
 
+.latestNewsContainer__link:hover {
+    color: var(--lilac);
+}
+
 /* === MAGICALFEATURES === */
 
 .magicalFeatures__container {
@@ -414,9 +446,15 @@ body {
 }
 
 .magicalFeatures__headline {
-    padding: 8.5em 0 2em;
+    padding: 10.5em 0 2em;
     font-family: var(--titleFont);
     width: 70%;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.magicalFeatures__headline:hover {
+    color: var(--lilac);
 }
 
 
@@ -426,7 +464,8 @@ body {
 .mobileFooter__logo,
 .mobileFooter__list,
 .mobileFooter__socialMedia,
-.mobileFooter__socialMediaContainer {
+.mobileFooter__socialMediaContainer,
+.mobileFooter__socialMediaLink {
     display: flex;
 }
 
@@ -441,7 +480,8 @@ body {
 }
 
 .mobileFooter__logo,
-.mobileFooter__socialMediaContainer {
+.mobileFooter__socialMediaContainer,
+.mobileFooter__socialMediaLink {
     justify-content: center;
 }
 
@@ -483,6 +523,10 @@ body {
     font-family: var(--mainFont);
 }
 
+.mobileFooter__link:hover {
+    color: var(--lilac);
+}
+
 .mobileFooter__socialMediaContainer {
     align-items: center;
     border-radius: 50%;
@@ -492,8 +536,8 @@ body {
 }
 
 .mobileFooter__socialMediaPicture {
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
 }
 
 .mobileFooter__text {
