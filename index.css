@@ -409,7 +409,7 @@ body {
 
 .magicalFeatures__border {
     margin: 1.8em 0;
-    border: var(--gray) solid 1px;
+    border: solid 1px var(--gray);
     padding: 5.8em 10.5em;
 }
 
