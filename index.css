@@ -576,6 +576,17 @@ body {
     text-align: center;
 }
 
+/* === MEDIA QUERIES === */
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {}
+
+/* Desktop devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {}
+
+/* Extra widescreen devices (4k / tv / huge resolution) */
+@media screen and (min-width: 1600px) {}
+
 /* === ANIMATIONS === */
 
 @keyframes slideMenuRight {
