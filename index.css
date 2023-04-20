@@ -195,6 +195,7 @@ body {
     font-family: var(--titleFont);
     margin: -1.5em 1.5em;
 }
+
 /* === MAINSLIDER === */
 
 .sliderButton {
@@ -202,12 +203,12 @@ body {
     margin: 3em;
 }
 
-.sliderButton > .sliderButton__item {
+.sliderButton>.sliderButton__item {
     color: var(--white);
     opacity: 80%;
 }
 
-.sliderButton > .sliderButton__item ~ .sliderButton__item {
+.sliderButton>.sliderButton__item~.sliderButton__item {
     opacity: 30%;
 }
 
@@ -256,16 +257,16 @@ body {
 }
 
 .newsletter__button {
-        border: 1em solid transparent;
-        border-radius: 3em;
-        margin: 2em 8em 3em;
-        background-color: var(--purple);
-        color: var(--white);
-        font-family: var(--titleFont);
-        padding: 0 3em;
-        letter-spacing: 0.2em;
-        width: 60%;
-        text-align: center;
+    border: 1em solid transparent;
+    border-radius: 3em;
+    margin: 2em 8em 3em;
+    background-color: var(--purple);
+    color: var(--white);
+    font-family: var(--titleFont);
+    padding: 0 3em;
+    letter-spacing: 0.2em;
+    width: 60%;
+    text-align: center;
 }
 
 .newsletter__button:hover {
@@ -347,16 +348,16 @@ body {
 }
 
 .connect__button {
-        border: 1em solid transparent;
-        border-radius: 3em;
-        margin: 5em 8em;
-        background-color: var(--purple);
-        color: var(--white);
-        font-family: var(--titleFont);
-        padding: 0 3em;
-        letter-spacing: 0.2em;
-        width: 60%;
-        text-align: center;
+    border: 1em solid transparent;
+    border-radius: 3em;
+    margin: 5em 8em;
+    background-color: var(--purple);
+    color: var(--white);
+    font-family: var(--titleFont);
+    padding: 0 3em;
+    letter-spacing: 0.2em;
+    width: 60%;
+    text-align: center;
 }
 
 /* === LATESTNEWS === */
@@ -546,6 +547,17 @@ body {
     color: var(--gray);
     text-align: center;
 }
+
+/* === MEDIA QUERIES === */
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {}
+
+/* Desktop devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {}
+
+/* Extra widescreen devices (4k / tv / huge resolution) */
+@media screen and (min-width: 1600px) {}
 
 /* === ANIMATIONS === */
 
