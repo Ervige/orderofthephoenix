@@ -221,7 +221,6 @@ body {
     z-index: 1;
 }
 
-
 /* === MAINSLIDER === */
 
 .sliderButton {
@@ -321,6 +320,7 @@ body {
 }
 
 /* === FOUNDERSCONTENT === */
+
 .foundersContent {
     position: relative;
     padding-bottom: 52px;
@@ -519,7 +519,6 @@ body {
 .magicalFeatures__headline:hover {
     color: var(--lilac);
 }
-
 
 /* === MOBILEFOOTER === */
 
