@@ -44,6 +44,18 @@
     --haleNavy: #242633;
 }
 
+/* === HTML / BODY STYLES === */
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+    -webkit-appearance: none;
+}
+
 body {
     font-family: var(--mainFont);
     font-size: 16px;
@@ -61,6 +73,9 @@ body {
     align-items: center;
     justify-content: center;
     border-bottom: 0.5px solid var(--gray);
+    background: var(--midnightBlue);
+    position: fixed;
+    z-index: 100;
 }
 
 .menuBox__menu {
@@ -69,14 +84,15 @@ body {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
 }
 
 .menuBox__menu--active {
     display: block;
+    height: 0;
 }
 
 .menuBox__menu--color {
+    height: 100vh;
     background-color: var(--midnightBlue);
     z-index: 2;
 }
@@ -222,7 +238,20 @@ body {
 /* === FANCLUBCONTENT === */
 
 .fanclubContent {
-    padding-bottom: 4em;
+    position: relative;
+    padding-bottom: 52px;
+    height: 100%;
+}
+
+.fanclubContent__caption {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 0 36px;
+    margin-top: -54px;
 }
 
 .fanclubContent__picture {
@@ -233,50 +262,48 @@ body {
 .fanclubContent__headline,
 .fanclubContent__underline {
     text-align: end;
-    position: absolute;
     cursor: pointer;
     z-index: 1;
 }
 
 .fanclubContent__category {
-    bottom: -1em;
-    right: 2.3em;
     font-size: 1em;
     font-family: var(--boldFont);
+    display: block;
+    margin: -14px 0 15px;
+    position: relative;
 }
 
 .fanclubContent__headline {
     font-size: 1.5em;
     font-family: var(--titleFont);
-    margin: -1.5em 1.5em;
 }
 
 .fanclubContent__underline {
     font-family: var(--mainfont);
-    margin: 2em 2em;
+    display: block;
+    margin-top: 5px;
 }
 
-.newsletter__button {
+.fanclub__buttonLink {
+    display: block;
     border: 1em solid transparent;
     border-radius: 3em;
-    margin: 2em 8em 3em;
     background-color: var(--purple);
     color: var(--white);
     font-family: var(--titleFont);
     padding: 0 3em;
     letter-spacing: 0.2em;
-    width: 60%;
+    width: auto;
+    white-space: nowrap;
     text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
 }
 
-.newsletter__button:hover {
+.fanclub__buttonLink:hover {
     background-color: var(--white);
     color: var(--lilac);
-}
-
-.newsletter__buttonLink {
-    text-decoration: none;
-    color: var(--white);
 }
 
 /* === FOUNDERSCONTENT === */
