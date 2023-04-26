@@ -197,7 +197,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 0 36px;
+    padding: 0 20px;
     margin-top: -36px;
 }
 
@@ -263,7 +263,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
-    padding: 0 36px;
+    padding: 0 20px;
     margin-top: -54px;
 }
 
@@ -295,7 +295,7 @@ body {
 .fanclubContent__underline {
     font-family: var(--mainfont);
     display: block;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .fanclub__buttonLink {
@@ -334,7 +334,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 0 36px;
+    padding: 0 20px;
     margin-top: -34px;
 }
 
@@ -358,7 +358,7 @@ body {
 .foundersContent__underline {
     font-family: var(--mainfont);
     display: block;
-    margin-top: 12px;
+    margin-top: 15px;
 }
 
 .founders__buttonLink {
