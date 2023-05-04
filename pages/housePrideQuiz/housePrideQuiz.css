@@ -1,0 +1,100 @@
+/* === CLEARFIX === */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* === CUSTOM FONTS === */
+
+@font-face {
+    font-family: BluuNext-Bold;
+    src: url(fonts/BluuNext-Bold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: BluuNext-Bolditalic;
+    src: url(fonts/BluuNext-Bolditalic.otf) format("opentype");
+}
+
+@font-face {
+    font-family: BluuNext-Titling;
+    src: url(fonts/BluuNext-Titling.otf) format("opentype");
+}
+
+@font-face {
+    font-family: SofiaPro-Main;
+    src: url(fonts/SofiaPro-Light.otf) format("opentype");
+}
+
+/* === VARIABLES === */
+
+:root {
+    --mainFont: "SofiaPro-Main", sans-serif;
+    --titleFont: "BluuNext-Titling", sans-serif;
+    --boldFont: "BluuNext-Bold", sans-serif;
+    --boldItalicFont: "BluuNext-Bolditalic", sans-serif;
+
+    --white: #f9f4f2;
+    --lilac: #6b63b5;
+    --purple: #514a92;
+    --gray: #9fa1ad;
+    --midnightBlue: #10141b;
+    --haleNavy: #242633;
+}
+
+/* === HTML / BODY STYLES === */
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+    -webkit-appearance: none;
+}
+
+body {
+    font-family: var(--mainFont);
+    font-size: 16px;
+    color: var(--white);
+    background-color: var(--midnightBlue);
+}
+
+/* === QUIZ CHAMPIONSHIP === */
+
+.quizChampionship {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.quizChampionship__title,
+.quizChampionship__undertitle {
+    text-align: center;
+    font-family: var(--titleFont);
+}
+
+.quizChampionship__undertitle {
+    font-size: 2em;
+}
+
+.quizChampionship__container {
+    display: flex;
+}
+
+.quizChampionship__hourglass {
+    position: relative;
+    width: 25%;
+    display: flex;
+}
+
+.quizChampionship__hourglassPoints {
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 15px 0;
+}
