@@ -81,18 +81,19 @@ body {
     font-size: 2em;
 }
 
-.quizChampionship__points {
-    
+.quizChampionship__scores {
+    display: flex;
+    justify-content: center;
 }
 
+.quizChampionship__points,
 .quizChampionship__container {
     display: flex;
 }
 
 .quizChampionship__hourglass {
     position: relative;
-    width: 25%;
-    display: flex;
+    width: 105px;
 }
 
 .quizChampionship__backgroundTopSquare {
@@ -121,14 +122,14 @@ body {
 .quizChampionship__backgroundBottomSquare {
     background-color: #752F2F;
     width: 90px;
-    height: 130px;
+    height: 120px;
     position: absolute;
-    margin: 125px 8px;
+    margin: 135px 8px;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    background: linear-gradient(0deg,#752f2f,#a04141,#b34848);
+    background: linear-gradient(0deg,#752f2f 50%,#a04141,#b34848);
 }
 
 .quizChampionship__backgroundBottomTriangle {
@@ -138,7 +139,7 @@ body {
     border-width: 0 45px 25px 45px;
     border-color: transparent transparent #b34848;
     position: absolute;
-    margin: 101px 8px;
+    margin: 110px 8px;
 }
 
 .quizChampionship__backgroundCrest {
@@ -149,6 +150,216 @@ body {
 }
 
 .quizChampionship__hourglassPoints {
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 220px 20px 0;
+}
+
+.quizChampionship__ravContainer {
+    display: flex;
+}
+
+.quizChampionship__ravHourglass {
+    position: relative;
+    width: 105px;
+    display: flex;
+}
+
+.quizChampionship__ravBackgroundTopSquare {
+    border: 1px solid #1b3a62;
+    background-color: #1b3a62;
+    width: 90px;
+    height: 34px;
+    position: absolute;
+    margin: 12px 8px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.quizChampionship__ravBackgroundTopTriangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 28px 45px 0 45px;
+    border-color: #1b3a62 transparent transparent transparent;
+    position: absolute;
+    margin: 45px 8px;
+}
+
+.quizChampionship__ravBackgroundBottomSquare {
+    width: 90px;
+    height: 130px;
+    position: absolute;
+    margin: 125px 8px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: linear-gradient(0deg,#1b3a62 0,#265caa 70%,#5fa0ff);
+}
+
+.quizChampionship__ravBackgroundBottomTriangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 45px 25px 45px;
+    border-color: transparent transparent #5fa0ff;
+    position: absolute;
+    margin: 101px 8px;
+}
+
+.quizChampionship__ravBackgroundCrest {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin: 20px 35px;
+}
+
+.quizChampionship__ravHourglassPoints {
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 220px 20px 0;
+}
+
+.quizChampionship__hufContainer {
+    display: flex;
+}
+
+.quizChampionship__hufHourglass {
+    position: relative;
+    width: 105px;
+    display: flex;
+}
+
+.quizChampionship__hufBackgroundTopSquare {
+    border: 1px solid #6b4605;
+    background-color: #6b4605;
+    width: 90px;
+    height: 34px;
+    position: absolute;
+    margin: 12px 8px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.quizChampionship__hufBackgroundTopTriangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 28px 45px 0 45px;
+    border-color: #6b4605 transparent transparent transparent;
+    position: absolute;
+    margin: 45px 8px;
+}
+
+.quizChampionship__hufBackgroundBottomSquare {
+    width: 90px;
+    height: 110px;
+    position: absolute;
+    margin: 145px 8px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: linear-gradient(0deg,#6b4605 50%,#ab6601,#b76d00);
+}
+
+.quizChampionship__hufBackgroundBottomTriangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 45px 30px 45px;
+    border-color: transparent transparent #b76d00;
+    position: absolute;
+    margin: 115px 8px;
+}
+
+.quizChampionship__hufBackgroundCrest {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin: 20px 35px;
+}
+
+.quizChampionship__hufHourglassPoints {
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 220px 20px 0;
+}
+
+.quizChampionship__slyContainer {
+    display: flex;
+}
+
+.quizChampionship__slyHourglass {
+    position: relative;
+    width: 105px;
+    display: flex;
+}
+
+.quizChampionship__slyBackgroundTopSquare {
+    border: 1px solid #07312a;
+    background-color: #07312a;
+    width: 90px;
+    height: 34px;
+    position: absolute;
+    margin: 12px 8px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.quizChampionship__slyBackgroundTopTriangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 28px 45px 0 45px;
+    border-color: #083831 transparent transparent transparent;
+    position: absolute;
+    margin: 45px 8px;
+}
+
+.quizChampionship__slyBackgroundBottomSquare {
+    width: 90px;
+    height: 125px;
+    position: absolute;
+    margin: 130px 8px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: linear-gradient(0deg,#05241f 50%,#043d34,#083831);
+}
+
+.quizChampionship__slyBackgroundBottomTriangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 45px 25px 45px;
+    border-color: transparent transparent #083831;
+    position: absolute;
+    margin: 105px 8px;
+}
+
+.quizChampionship__slyBackgroundCrest {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin: 20px 35px;
+}
+
+.quizChampionship__slyHourglassPoints {
     position: absolute;
     flex-direction: column;
     align-items: center;
