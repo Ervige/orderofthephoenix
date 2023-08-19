@@ -1,5 +1,5 @@
 
-.housePrideQuizInfo__container {
+.housePrideQuizInfo {
     display: flex;
     justify-content: center;
     margin: 50px;
@@ -11,17 +11,17 @@
     text-align: center;
 }
 
-.housePrideQuizCrest__container {
+.housePrideQuizCrest {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
 }
 
-.housePrideQuizCrest__backgroundTop {
-    background-color: #514a92;
+.housePrideQuizCrest__badgeTop {
+    background-color: var(--purple);
     position: relative;
-    border: 1px solid #514a92;
+    border: 1px solid var(--purple);
     width: 300px;
     height: 250px;
     border-top-right-radius: 5px;
@@ -30,13 +30,13 @@
     border-bottom-right-radius: 2px;
 }
 
-.housePrideQuizCrest__backgroundBottom {
+.housePrideQuizCrest__badgeBottom {
     width: 0;
     height: 0;
     margin-top: -1px;
     border-style: solid;
-    border-width: 80px 150px 0 150px;
-    border-color: #514a92 transparent transparent transparent
+    border-width: 80px 150px 0;
+    border-color: var(--purple) transparent transparent;
 }
 
 .housePrideQuizCrest__logo {
@@ -55,9 +55,15 @@
 
 .housePrideQuizCrest__buttonContainer {
     position: absolute;
-    border: 1px solid white;
+    border: 1px solid var(--white);
     border-radius: 30px;
     padding: 15px 50px;
     margin-top: 190px;
+}
+
+.housePrideQuizCrest__button {
+    background: transparent;
+    border: none;
+    color: var(--white);
     font-family: var(--mainFont);
 }
