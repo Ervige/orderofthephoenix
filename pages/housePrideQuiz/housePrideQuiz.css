@@ -39,15 +39,12 @@
     height: 34px;
     position: absolute;
     margin: 12px 8px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
+    border-radius: 5px 5px 2px 2px;
 }
 
 .quizChampionshipScores__badgeTopSquare--gryf {
-    border: 1px solid #752F2F;
-    background-color: #752F2F;
+    border: 1px solid var(--burgund);
+    background-color: var(--burgund);
 }
 
 .quizChampionshipScores__badgeTopTriangle {
@@ -58,35 +55,32 @@
 }
 
 .quizChampionshipScores__badgeTopTriangle--gryf {
-    border-color: #752F2F transparent transparent;
+    border-color: var(--burgund) transparent transparent;
 }
 
 .quizChampionshipScores__badgeBottomSquare {
     position: absolute;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 2px 2px 5px 5px;
     width: 83%;
 }
 
 .quizChampionshipScores__badgeBottomSquare--gryf {
-    background-color: #752F2F;
+    background-color: var(--burgund);
     height: 40%;
     margin: 135px 8px;
-    background: linear-gradient(0deg,#752f2f 50%,#a04141,#b34848);
+    background: linear-gradient(0deg,var(--gryffindorburgund));
 }
 
 .quizChampionshipScores__badgeBottomTriangle {
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
     border-style: solid;
     position: absolute;
 }
 
 .quizChampionshipScores__badgeBottomTriangle--gryf {
     margin: 111px 8px;
-    border-color: transparent transparent #b34848;
+    border-color: transparent transparent var(--lightburgund);
     border-width: 0 39px 25px;
 }
 
@@ -113,64 +107,64 @@
 }
 
 .quizChampionshipScores__badgeTopSquare--rav {
-    border: 1px solid #1b3a62;
-    background-color: #1b3a62;
+    border: 1px solid var(--deepblue);
+    background-color: var(--deepblue);
 }
 
 .quizChampionshipScores__badgeTopTriangle--rav {
-    border-color: #1b3a62 transparent transparent;
+    border-color: var(--deepblue) transparent transparent;
 }
 
 .quizChampionshipScores__badgeBottomSquare--rav {
     height: 44%;
     margin: 125px 8px;
-    background: linear-gradient(0deg,#1b3a62 0,#265caa 70%,#5fa0ff);
+    background: linear-gradient(0deg,var(--ravenclawblue));
 }
 
 .quizChampionshipScores__badgeBottomTriangle--rav {
     border-width: 0 39px 25px;
-    border-color: transparent transparent #5fa0ff;
+    border-color: transparent transparent var(--lightblue);
     margin: 101px 8px;
 }
 
 .quizChampionshipScores__badgeTopSquare--huf {
-    border: 1px solid #6b4605;
-    background-color: #6b4605;
+    border: 1px solid var(--deepmustard);
+    background-color: var(--deepmustard);
 }
 
 .quizChampionshipScores__badgeTopTriangle--huf {
-    border-color: #6b4605 transparent transparent;
+    border-color: var(--deepmustard) transparent transparent;
 }
 
 .quizChampionshipScores__badgeBottomSquare--huf {
     height: 36%;
     margin: 145px 8px;
-    background: linear-gradient(0deg,#6b4605 50%,#ab6601,#b76d00);
+    background: linear-gradient(0deg,var(--hufflepuffmustard));
 }
 
 .quizChampionshipScores__badgeBottomTriangle--huf {
     border-width: 0 39px 30px;
-    border-color: transparent transparent #b76d00;
+    border-color: transparent transparent var(--lightmustard);
     margin: 116px 8px;
 }
 
 .quizChampionshipScores__badgeTopSquare--sly {
-    border: 1px solid #07312a;
-    background-color: #07312a;
+    border: 1px solid var(--deepgreen);
+    background-color: var(--deepgreen);
 }
 
 .quizChampionshipScores__badgeTopTriangle--sly {
-    border-color: #07312a transparent transparent;
+    border-color: var(--deepgreen) transparent transparent;
 }
 
 .quizChampionshipScores__badgeBottomSquare--sly {
     height: 42%;
     margin: 130px 8px;
-    background: linear-gradient(0deg,#05241f 50%,#043d34,#083831);
+    background: linear-gradient(0deg,var(--slytheringreen));
 }
 
 .quizChampionshipScores__badgeBottomTriangle--sly {
     border-width: 0 39px 25px;
-    border-color: transparent transparent #083831;
+    border-color: transparent transparent var(--green);
     margin: 106px 8px;
 }
