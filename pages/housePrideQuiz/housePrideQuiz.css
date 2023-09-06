@@ -49,7 +49,7 @@
 
 .quizChampionshipScores__badgeTopTriangle {
     border-style: solid;
-    border-width: 21px 38px 0 38px;
+    border-width: 21px 38px 0;
     position: absolute;
     margin: 45px 9px;
 }
@@ -68,7 +68,7 @@
     background-color: var(--burgund);
     height: 40%;
     margin: 135px 8px;
-    background: linear-gradient(0deg,var(--gryffindorburgund));
+    background: linear-gradient(0deg,var(--gryffindorBurgund));
 }
 
 .quizChampionshipScores__badgeBottomTriangle {
@@ -80,7 +80,7 @@
 
 .quizChampionshipScores__badgeBottomTriangle--gryf {
     margin: 111px 8px;
-    border-color: transparent transparent var(--lightburgund);
+    border-color: transparent transparent var(--lightBurgund);
     border-width: 0 39px 25px;
 }
 
@@ -107,60 +107,60 @@
 }
 
 .quizChampionshipScores__badgeTopSquare--rav {
-    border: 1px solid var(--deepblue);
-    background-color: var(--deepblue);
+    border: 1px solid var(--deepBlue);
+    background-color: var(--deepBlue);
 }
 
 .quizChampionshipScores__badgeTopTriangle--rav {
-    border-color: var(--deepblue) transparent transparent;
+    border-color: var(--deepBlue) transparent transparent;
 }
 
 .quizChampionshipScores__badgeBottomSquare--rav {
     height: 44%;
     margin: 125px 8px;
-    background: linear-gradient(0deg,var(--ravenclawblue));
+    background: linear-gradient(0deg,var(--ravenclawBlue));
 }
 
 .quizChampionshipScores__badgeBottomTriangle--rav {
     border-width: 0 39px 25px;
-    border-color: transparent transparent var(--lightblue);
+    border-color: transparent transparent var(--lightBlue);
     margin: 101px 8px;
 }
 
 .quizChampionshipScores__badgeTopSquare--huf {
-    border: 1px solid var(--deepmustard);
-    background-color: var(--deepmustard);
+    border: 1px solid var(--deepMustard);
+    background-color: var(--deepMustard);
 }
 
 .quizChampionshipScores__badgeTopTriangle--huf {
-    border-color: var(--deepmustard) transparent transparent;
+    border-color: var(--deepMustard) transparent transparent;
 }
 
 .quizChampionshipScores__badgeBottomSquare--huf {
     height: 36%;
     margin: 145px 8px;
-    background: linear-gradient(0deg,var(--hufflepuffmustard));
+    background: linear-gradient(0deg,var(--hufflepuffMustard));
 }
 
 .quizChampionshipScores__badgeBottomTriangle--huf {
     border-width: 0 39px 30px;
-    border-color: transparent transparent var(--lightmustard);
+    border-color: transparent transparent var(--lightMustard);
     margin: 116px 8px;
 }
 
 .quizChampionshipScores__badgeTopSquare--sly {
-    border: 1px solid var(--deepgreen);
-    background-color: var(--deepgreen);
+    border: 1px solid var(--deepGreen);
+    background-color: var(--deepGreen);
 }
 
 .quizChampionshipScores__badgeTopTriangle--sly {
-    border-color: var(--deepgreen) transparent transparent;
+    border-color: var(--deepGreen) transparent transparent;
 }
 
 .quizChampionshipScores__badgeBottomSquare--sly {
     height: 42%;
     margin: 130px 8px;
-    background: linear-gradient(0deg,var(--slytheringreen));
+    background: linear-gradient(0deg,var(--slytherinGreen));
 }
 
 .quizChampionshipScores__badgeBottomTriangle--sly {

@@ -42,18 +42,18 @@
     --gray: #9fa1ad;
     --midnightBlue: #10141b;
     --haleNavy: #242633;
-    --lightburgund:  #b34848;
+    --lightBurgund:  #b34848;
     --burgund: #752F2F;
-    --gryffindorburgund: #752f2f 50%,#a04141,#b34848;
-    --lightblue: #5fa0ff;
-    --deepblue: #1b3a62;
-    --ravenclawblue: #1b3a62 0,#265caa 70%,#5fa0ff;
-    --lightmustard: #b76d00;
-    --deepmustard: #6b4605;
-    --hufflepuffmustard: #6b4605 50%,#ab6601,#b76d00;
+    --gryffindorBurgund: #752f2f 50%,#a04141,#b34848;
+    --lightBlue: #5fa0ff;
+    --deepBlue: #1b3a62;
+    --ravenclawBlue: #1b3a62 0,#265caa 70%,#5fa0ff;
+    --lightMustard: #b76d00;
+    --deepMustard: #6b4605;
+    --hufflepuffMustard: #6b4605 50%,#ab6601,#b76d00;
     --green: #083831;
-    --deepgreen: #07312a;
-    --slytheringreen: #05241f 50%,#043d34,#083831;
+    --deepGreen: #07312a;
+    --slytherinGreen: #05241f 50%,#043d34,#083831;
 }
 
 /* === HTML / BODY STYLES === */
