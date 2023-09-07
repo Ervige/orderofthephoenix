@@ -80,7 +80,6 @@ body {
 .menuBox {
     width: 100vw;
     height: 94px;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
