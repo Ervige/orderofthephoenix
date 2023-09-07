@@ -1,69 +1,170 @@
+/* === QUIZ CHAMPIONSHIP === */
 
-.housePrideQuizInfo {
-    display: flex;
-    justify-content: center;
-    margin: 50px;
-    padding: 20px 30px;
-}
-
-.housePrideQuizInfo__text {
-    font-family: var(--mainFont);
-    text-align: center;
-}
-
-.housePrideQuizCrest {
+.quizChampionship {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 20px;
+    margin: 20px;
 }
 
-.housePrideQuizCrest__badgeTop {
-    background-color: var(--purple);
+.quizChampionship__title,
+.quizChampionship__undertitle {
+    text-align: center;
+    font-family: var(--titleFont);
+}
+
+.quizChampionship__undertitle {
+    font-size: 2em;
+}
+
+.quizChampionshipScores {
+    display: flex;
+    justify-content: center;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.quizChampionshipScores__container {
+    width: 25%;
     position: relative;
-    border: 1px solid var(--purple);
-    width: 300px;
-    height: 250px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
+    display: flex;
 }
 
-.housePrideQuizCrest__badgeBottom {
+.quizChampionshipScores__hourglass {
+    position: relative;
+    width: 105px;
+}
+
+.quizChampionshipScores__badgeTopSquare {
+    width: 83%;
+    height: 34px;
+    position: absolute;
+    margin: 12px 8px;
+    border-radius: 5px 5px 2px 2px;
+}
+
+.quizChampionshipScores__badgeTopSquare--gryf {
+    border: 1px solid var(--burgund);
+    background-color: var(--burgund);
+}
+
+.quizChampionshipScores__badgeTopTriangle {
+    border-style: solid;
+    border-width: 21px 38px 0;
+    position: absolute;
+    margin: 45px 9px;
+}
+
+.quizChampionshipScores__badgeTopTriangle--gryf {
+    border-color: var(--burgund) transparent transparent;
+}
+
+.quizChampionshipScores__badgeBottomSquare {
+    position: absolute;
+    border-radius: 2px 2px 5px 5px;
+    width: 83%;
+}
+
+.quizChampionshipScores__badgeBottomSquare--gryf {
+    background-color: var(--burgund);
+    height: 40%;
+    margin: 135px 8px;
+    background: linear-gradient(0deg,var(--gryffindorBurgund));
+}
+
+.quizChampionshipScores__badgeBottomTriangle {
     width: 0;
     height: 0;
-    margin-top: -1px;
     border-style: solid;
-    border-width: 80px 150px 0;
-    border-color: var(--purple) transparent transparent;
+    position: absolute;
 }
 
-.housePrideQuizCrest__logo {
-    position: absolute;
-    margin-top: -65px;
-    width: 25%;
-    height: 25%;
+.quizChampionshipScores__badgeBottomTriangle--gryf {
+    margin: 111px 8px;
+    border-color: transparent transparent var(--lightBurgund);
+    border-width: 0 39px 25px;
 }
 
-.housePrideQuizCrest__text {
+.quizChampionshipScores__crest {
     position: absolute;
+    width: 35px;
+    height: 35px;
+    margin: 20px 35px;
+    left: -5px;
+}
+
+.quizChampionshipScores__picture {
+    height: 42px;
+    width: 35px;
+}
+
+.quizChampionshipScores__hourglassPoints {
+    position: absolute;
+    width: 66px;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -33px;
     text-align: center;
-    font-family: var(--mainFont);
-    padding: 80px;
 }
 
-.housePrideQuizCrest__buttonContainer {
-    position: absolute;
-    border: 1px solid var(--white);
-    border-radius: 30px;
-    padding: 15px 50px;
-    margin-top: 190px;
+.quizChampionshipScores__badgeTopSquare--rav {
+    border: 1px solid var(--deepBlue);
+    background-color: var(--deepBlue);
 }
 
-.housePrideQuizCrest__button {
-    background: transparent;
-    border: none;
-    color: var(--white);
-    font-family: var(--mainFont);
+.quizChampionshipScores__badgeTopTriangle--rav {
+    border-color: var(--deepBlue) transparent transparent;
+}
+
+.quizChampionshipScores__badgeBottomSquare--rav {
+    height: 44%;
+    margin: 125px 8px;
+    background: linear-gradient(0deg,var(--ravenclawBlue));
+}
+
+.quizChampionshipScores__badgeBottomTriangle--rav {
+    border-width: 0 39px 25px;
+    border-color: transparent transparent var(--lightBlue);
+    margin: 101px 8px;
+}
+
+.quizChampionshipScores__badgeTopSquare--huf {
+    border: 1px solid var(--deepMustard);
+    background-color: var(--deepMustard);
+}
+
+.quizChampionshipScores__badgeTopTriangle--huf {
+    border-color: var(--deepMustard) transparent transparent;
+}
+
+.quizChampionshipScores__badgeBottomSquare--huf {
+    height: 36%;
+    margin: 145px 8px;
+    background: linear-gradient(0deg,var(--hufflepuffMustard));
+}
+
+.quizChampionshipScores__badgeBottomTriangle--huf {
+    border-width: 0 39px 30px;
+    border-color: transparent transparent var(--lightMustard);
+    margin: 116px 8px;
+}
+
+.quizChampionshipScores__badgeTopSquare--sly {
+    border: 1px solid var(--deepGreen);
+    background-color: var(--deepGreen);
+}
+
+.quizChampionshipScores__badgeTopTriangle--sly {
+    border-color: var(--deepGreen) transparent transparent;
+}
+
+.quizChampionshipScores__badgeBottomSquare--sly {
+    height: 42%;
+    margin: 130px 8px;
+    background: linear-gradient(0deg,var(--slytherinGreen));
+}
+
+.quizChampionshipScores__badgeBottomTriangle--sly {
+    border-width: 0 39px 25px;
+    border-color: transparent transparent var(--green);
+    margin: 106px 8px;
 }
