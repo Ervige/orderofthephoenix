@@ -168,3 +168,77 @@
     border-color: transparent transparent var(--green);
     margin: 106px 8px;
 }
+
+/* === HOUSE PRIDE CREST ===*/
+
+.housePrideQuizInfo {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 20px 30px;
+}
+
+.housePrideQuizInfo__text {
+    font-family: var(--mainFont);
+    text-align: center;
+}
+
+.housePrideQuizCrest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px;
+}
+
+.housePrideQuizCrest__badgeTop {
+    background-color: var(--purple);
+    position: relative;
+    border: 1px solid var(--purple);
+    width: 300px;
+    height: 250px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.housePrideQuizCrest__badgeBottom {
+    width: 0;
+    height: 0;
+    margin-top: -1px;
+    border-style: solid;
+    border-width: 80px 150px 0;
+    border-color: var(--purple) transparent transparent;
+    padding-bottom: 10px;
+}
+
+.housePrideQuizCrest__logo {
+    position: absolute;
+    margin-top: -65px;
+    width: 25%;
+    height: 25%;
+}
+
+.housePrideQuizCrest__text {
+    position: absolute;
+    text-align: center;
+    font-family: var(--mainFont);
+    padding: 80px;
+    cursor: text;
+}
+
+.housePrideQuizCrest__buttonContainer {
+    position: absolute;
+    border: 1px solid var(--white);
+    border-radius: 30px;
+    padding: 15px 50px;
+    margin-top: 190px;
+}
+
+.housePrideQuizCrest__button {
+    background: transparent;
+    border: none;
+    color: var(--white);
+    font-family: var(--mainFont);
+    cursor: pointer;
+}
