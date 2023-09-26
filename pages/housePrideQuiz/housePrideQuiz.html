@@ -10,126 +10,351 @@
   </head>
 
   <body>
-    <div class="quizChampionship">
-      <div class="quizChampionship__headline">
-        <h3 class="quizChampionship__title">QUIZ CHAMPIONSHIP</h3>
-        <h1 class="quizChampionship__undertitle">Ravenclaw Wins</h1>
+    <header>
+      <div class="menuBox">
+        <nav class="menuBox__menu menuBox__menu--active">
+          <button id="openMenuButton" class="menuBox__button">
+            <img class="menuBox__icon" src="/../../icons/menu.svg" />
+          </button>
+        </nav>
+        <nav class="menuBox__menu menuBox__menu--color">
+          <button id="closeMenuButton" class="menuBox__button">
+            <img class="menuBox__icon" src="/../../icons/close.svg" />
+          </button>
+          <ul class="menuBox__list">
+            <li class="menuBox__item">
+              <a class="menuBox__link" href="#"> News & features </a>
+            </li>
+            <li class="menuBox__item">
+              <a class="menuBox__link" href="#"> Quizzes & puzzles </a>
+            </li>
+            <li class="menuBox__item">
+              <a class="menuBox__link" href="#"> J.K. Rowling archive </a>
+            </li>
+            <li class="menuBox__item">
+              <a class="menuBox__link" href="#"> Discover </a>
+            </li>
+            <li class="menuBox__item">
+              <a class="menuBox__link" href="#"> Hogwarts sorting </a>
+            </li>
+            <li class="menuBox__item">
+              <a class="menuBox__link" href="#"> For kids </a>
+            </li>
+            <li class="menuBox__item">
+              <a class="menuBox__link" href="#"> Portrait maker </a>
+            </li>
+            <li class="menuBox__item">
+              <a class="menuBox__link" href="#"> Hogwarts legacy </a>
+            </li>
+            <li class="menuBox__item">
+              <a class="menuBox__link" href="#"> Shop </a>
+            </li>
+          </ul>
+        </nav>
+        <figure>
+          <img
+            src="/../../icons/mainLogo.png"
+            alt="Wizarding World logo"
+            class="menuBox__logo"
+          />
+        </figure>
       </div>
-    </div>
-    <div class="quizChampionshipScores">
-      <div class="quizChampionshipScores__container">
-        <figure class="quizChampionshipScores__hourglass">
-          <img
-            src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fleaderboard%2Fhourglass.svg&w=1320&q=75"
-            alt="Gryffindor hourglass"
-          />
-        </figure>
-        <div
-          class="quizChampionshipScores__badgeTopSquare quizChampionshipScores__badgeTopSquare--gryf"
-        ></div>
-        <div
-          class="quizChampionshipScores__badgeTopTriangle quizChampionshipScores__badgeTopTriangle--gryf"
-        ></div>
-        <figure class="quizChampionshipScores__crest">
-          <img
-            class="quizChampionshipScores__picture"
-            src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fleaderboard%2Fgryffindor.svg&w=1320&q=75"
-            alt="Gryffindor crest"
-          />
-        </figure>
-        <div
-          class="quizChampionshipScores__badgeBottomSquare quizChampionshipScores__badgeBottomSquare--gryf"
-        ></div>
-        <div
-          class="quizChampionshipScores__badgeBottomTriangle quizChampionshipScores__badgeBottomTriangle--gryf"
-        ></div>
-        <div class="quizChampionshipScores__hourglassPoints">1.253.889</div>
+      <figure class="logoBox">
+        <img
+          src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fhome%2Flogo.png&w=1320&q=75"
+          class="logoBox__img"
+          alt="Logo Harry Potter and Fantastic Beasts"
+        />
+      </figure>
+    </header>
+    <main>
+      <div class="quizChampionship">
+        <div class="quizChampionship__headline">
+          <h3 class="quizChampionship__title">QUIZ CHAMPIONSHIP</h3>
+          <h1 class="quizChampionship__undertitle">Ravenclaw Wins</h1>
+        </div>
       </div>
-      <div class="quizChampionshipScores__container">
-        <figure class="quizChampionshipScores__hourglass">
-          <img
-            src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fleaderboard%2Fhourglass.svg&w=1320&q=75"
-            alt="Ravenclaw hourglass"
-          />
-        </figure>
-        <div
-          class="quizChampionshipScores__badgeTopSquare quizChampionshipScores__badgeTopSquare--rav"
-        ></div>
-        <div
-          class="quizChampionshipScores__badgeTopTriangle quizChampionshipScores__badgeTopTriangle--rav"
-        ></div>
-        <figure class="quizChampionshipScores__crest">
-          <img
-            class="quizChampionshipScores__picture"
-            src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fleaderboard%2Fravenclaw.svg&w=1320&q=75"
-            alt="Ravenclaw crest"
-          />
-        </figure>
-        <div
-          class="quizChampionshipScores__badgeBottomSquare quizChampionshipScores__badgeBottomSquare--rav"
-        ></div>
-        <div
-          class="quizChampionshipScores__badgeBottomTriangle quizChampionshipScores__badgeBottomTriangle--rav"
-        ></div>
-        <div class="quizChampionshipScores__hourglassPoints">1.427.330</div>
+      <div class="quizChampionshipScores">
+        <div class="quizChampionshipScores__container">
+          <figure class="quizChampionshipScores__hourglass">
+            <img
+              src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fleaderboard%2Fhourglass.svg&w=1320&q=75"
+              alt="Gryffindor hourglass"
+            />
+          </figure>
+          <div
+            class="quizChampionshipScores__badgeTopSquare quizChampionshipScores__badgeTopSquare--gryf"
+          ></div>
+          <div
+            class="quizChampionshipScores__badgeTopTriangle quizChampionshipScores__badgeTopTriangle--gryf"
+          ></div>
+          <figure class="quizChampionshipScores__crest">
+            <img
+              class="quizChampionshipScores__picture"
+              src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fleaderboard%2Fgryffindor.svg&w=1320&q=75"
+              alt="Gryffindor crest"
+            />
+          </figure>
+          <div
+            class="quizChampionshipScores__badgeBottomSquare quizChampionshipScores__badgeBottomSquare--gryf"
+          ></div>
+          <div
+            class="quizChampionshipScores__badgeBottomTriangle quizChampionshipScores__badgeBottomTriangle--gryf"
+          ></div>
+          <div class="quizChampionshipScores__hourglassPoints">1.253.889</div>
+        </div>
+        <div class="quizChampionshipScores__container">
+          <figure class="quizChampionshipScores__hourglass">
+            <img
+              src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fleaderboard%2Fhourglass.svg&w=1320&q=75"
+              alt="Ravenclaw hourglass"
+            />
+          </figure>
+          <div
+            class="quizChampionshipScores__badgeTopSquare quizChampionshipScores__badgeTopSquare--rav"
+          ></div>
+          <div
+            class="quizChampionshipScores__badgeTopTriangle quizChampionshipScores__badgeTopTriangle--rav"
+          ></div>
+          <figure class="quizChampionshipScores__crest">
+            <img
+              class="quizChampionshipScores__picture"
+              src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fleaderboard%2Fravenclaw.svg&w=1320&q=75"
+              alt="Ravenclaw crest"
+            />
+          </figure>
+          <div
+            class="quizChampionshipScores__badgeBottomSquare quizChampionshipScores__badgeBottomSquare--rav"
+          ></div>
+          <div
+            class="quizChampionshipScores__badgeBottomTriangle quizChampionshipScores__badgeBottomTriangle--rav"
+          ></div>
+          <div class="quizChampionshipScores__hourglassPoints">1.427.330</div>
+        </div>
+        <div class="quizChampionshipScores__container">
+          <figure class="quizChampionshipScores__hourglass">
+            <img
+              src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fleaderboard%2Fhourglass.svg&w=1320&q=75"
+              alt="Hufflepuff hourglass"
+            />
+          </figure>
+          <div
+            class="quizChampionshipScores__badgeTopSquare quizChampionshipScores__badgeTopSquare--huf"
+          ></div>
+          <div
+            class="quizChampionshipScores__badgeTopTriangle quizChampionshipScores__badgeTopTriangle--huf"
+          ></div>
+          <figure class="quizChampionshipScores__crest">
+            <img
+              class="quizChampionshipScores__picture"
+              src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fleaderboard%2Fhufflepuff.svg&w=1320&q=75"
+              alt="Hufflepuff crest"
+            />
+          </figure>
+          <div
+            class="quizChampionshipScores__badgeBottomSquare quizChampionshipScores__badgeBottomSquare--huf"
+          ></div>
+          <div
+            class="quizChampionshipScores__badgeBottomTriangle quizChampionshipScores__badgeBottomTriangle--huf"
+          ></div>
+          <div class="quizChampionshipScores__hourglassPoints">1.090.726</div>
+        </div>
+        <div class="quizChampionshipScores__container">
+          <figure class="quizChampionshipScores__hourglass">
+            <img
+              src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fleaderboard%2Fhourglass.svg&w=1320&q=75"
+              alt="Hufflepuff hourglass"
+            />
+          </figure>
+          <div
+            class="quizChampionshipScores__badgeTopSquare quizChampionshipScores__badgeTopSquare--sly"
+          ></div>
+          <div
+            class="quizChampionshipScores__badgeTopTriangle quizChampionshipScores__badgeTopTriangle--sly"
+          ></div>
+          <figure class="quizChampionshipScores__crest">
+            <img
+              class="quizChampionshipScores__picture"
+              src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fleaderboard%2Fslytherin.svg&w=1320&q=75"
+              alt="Slytherin crest"
+            />
+          </figure>
+          <div
+            class="quizChampionshipScores__badgeBottomSquare quizChampionshipScores__badgeBottomSquare--sly"
+          ></div>
+          <div
+            class="quizChampionshipScores__badgeBottomTriangle quizChampionshipScores__badgeBottomTriangle--sly"
+          ></div>
+          <div class="quizChampionshipScores__hourglassPoints">1.310.737</div>
+        </div>
       </div>
-      <div class="quizChampionshipScores__container">
-        <figure class="quizChampionshipScores__hourglass">
-          <img
-            src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fleaderboard%2Fhourglass.svg&w=1320&q=75"
-            alt="Hufflepuff hourglass"
-          />
-        </figure>
-        <div
-          class="quizChampionshipScores__badgeTopSquare quizChampionshipScores__badgeTopSquare--huf"
-        ></div>
-        <div
-          class="quizChampionshipScores__badgeTopTriangle quizChampionshipScores__badgeTopTriangle--huf"
-        ></div>
-        <figure class="quizChampionshipScores__crest">
-          <img
-            class="quizChampionshipScores__picture"
-            src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fleaderboard%2Fhufflepuff.svg&w=1320&q=75"
-            alt="Hufflepuff crest"
-          />
-        </figure>
-        <div
-          class="quizChampionshipScores__badgeBottomSquare quizChampionshipScores__badgeBottomSquare--huf"
-        ></div>
-        <div
-          class="quizChampionshipScores__badgeBottomTriangle quizChampionshipScores__badgeBottomTriangle--huf"
-        ></div>
-        <div class="quizChampionshipScores__hourglassPoints">1.090.726</div>
+      <div class="housePrideQuizCrest">
+      <div class="housePrideQuizCrest__badgeTop"></div>
+      <div class="housePrideQuizCrest__badgeBottom"></div>
+      <figure class="housePrideQuizCrest__logo">
+        <img
+          src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fleaderboard%2Fhogwarts.svg&w=1320&q=75"
+          alt="Hogwart's logo"
+        />
+      </figure>
+      <p class="housePrideQuizCrest__text">
+        Our quiz has now ended, but not to worry. Login or sign up with us and
+        we'll keep you posted on future challenges!
+      </p>
+      <div class="housePrideQuizCrest__buttonContainer">
+        <input
+          class="housePrideQuizCrest__button"
+          type="button"
+          value="LOGIN/SIGN UP"
+        />
       </div>
-      <div class="quizChampionshipScores__container">
-        <figure class="quizChampionshipScores__hourglass">
+    </main>
+    <footer>
+      <div class="mobileFooter">
+        <div class="mobileFooter__logo">
           <img
-            src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fleaderboard%2Fhourglass.svg&w=1320&q=75"
-            alt="Hufflepuff hourglass"
+            src="/images/footerLogo.png"
+            class="mobileFooter__image"
+            alt="Wizarding World logo"
           />
-        </figure>
-        <div
-          class="quizChampionshipScores__badgeTopSquare quizChampionshipScores__badgeTopSquare--sly"
-        ></div>
-        <div
-          class="quizChampionshipScores__badgeTopTriangle quizChampionshipScores__badgeTopTriangle--sly"
-        ></div>
-        <figure class="quizChampionshipScores__crest">
-          <img
-            class="quizChampionshipScores__picture"
-            src="https://www.wizardingworld.com/_next/image?url=%2Fimages%2Fpages%2Fleaderboard%2Fslytherin.svg&w=1320&q=75"
-            alt="Slytherin crest"
-          />
-        </figure>
-        <div
-          class="quizChampionshipScores__badgeBottomSquare quizChampionshipScores__badgeBottomSquare--sly"
-        ></div>
-        <div
-          class="quizChampionshipScores__badgeBottomTriangle quizChampionshipScores__badgeBottomTriangle--sly"
-        ></div>
-        <div class="quizChampionshipScores__hourglassPoints">1.310.737</div>
+        </div>
+        <div class="mobileFooter__listing">
+          <ul class="mobileFooter__list">
+            <li class="mobileFooter__item">
+              <a
+                href="#"
+                class="mobileFooter__link"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >About us</a
+              >
+            </li>
+            <li class="mobileFooter__item">
+              <a
+                href="#"
+                class="mobileFooter__link"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >Press</a
+              >
+            </li>
+            <li class="mobileFooter__item">
+              <a
+                href="#"
+                class="mobileFooter__link"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >FAQs</a
+              >
+            </li>
+            <li class="mobileFooter__item">
+              <a
+                href="#"
+                class="mobileFooter__link"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >Terms & Conditions</a
+              >
+            </li>
+            <li class="mobileFooter__item">
+              <a
+                href="#"
+                class="mobileFooter__link"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >Ad choices</a
+              >
+            </li>
+            <li class="mobileFooter__item">
+              <a
+                href="#"
+                class="mobileFooter__link"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >Privacy & Cookies</a
+              >
+            </li>
+            <li class="mobileFooter__item">
+              <a
+                href="#"
+                class="mobileFooter__link"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >Children's Privacy Policy</a
+              >
+            </li>
+            <li class="mobileFooter__item">
+              <a
+                href="#"
+                class="mobileFooter__link"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >Legals</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="mobileFooter__socialMedia">
+          <div class="mobileFooter__socialMediaContainer">
+            <a
+              href="https://m.youtube.com/channel/UChPRO1CB_Hvd0TvKRU62iSQ"
+              class="mobileFooter__socialMediaLink"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              <img
+                src="/icons/youtubePicture.png"
+                class="mobileFooter__socialMediaPicture"
+                alt="YouTube Picture"
+              />
+            </a>
+          </div>
+          <div class="mobileFooter__socialMediaContainer">
+            <a
+              href="https://m.facebook.com/wizardingworld"
+              class="mobileFooter__socialMediaLink"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              <img
+                src="/icons/facebookPicture.png"
+                class="mobileFooter__socialMediaPicture"
+                alt="Facebook Picture"
+              />
+            </a>
+          </div>
+          <div class="mobileFooter__socialMediaContainer">
+            <a
+              href="https://www.instagram.com/wizardingworld/"
+              class="mobileFooter__socialMediaLink"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >
+              <img
+                src="/icons/instagramPicture.png"
+                class="mobileFooter__socialMediaPicture"
+                alt="Instagram Picture"
+              />
+            </a>
+          </div>
+        </div>
+        <p class="mobileFooter__text">© Wizarding World Digital 2023</p>
+        <p class="mobileFooter__text">
+          Looking for Pottermore? Wizarding World is the new official home of
+          Harry Potter & Fantastic Beasts. Join the Fan Club and bring your
+          traits with you.
+        </p>
+        <p class="mobileFooter__text">
+          Brought to you by Wizarding World Digital, a partnership between
+          Warner Bros. and Pottermore. Delivering the latest news and official
+          products from the Wizarding World and our partners.
+        </p>
+        <p class="mobileFooter__text">
+          TM & © WBEI. WIZARDING WORLD Publishing and Theatrical Stage Rights ©
+          J.K. Rowling.
+        </p>
       </div>
-    </div>
+    </footer>
   </body>
   <script src="../../index.js"></script>
 </html>
