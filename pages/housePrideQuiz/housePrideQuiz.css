@@ -187,7 +187,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 120px;
+    padding: 120px 120px 60px;
 }
 
 .housePrideQuizCrest__badgeTop {
@@ -241,4 +241,68 @@
     color: var(--white);
     font-family: var(--mainFont);
     cursor: pointer;
+}
+
+/* === LEARN MORE ABOUT HOUSE PRIDE === */
+
+.housePride {
+    position: relative;
+    padding-bottom: 50px;
+    height: 100%;
+}
+
+.housePride__caption {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 20px;
+    margin-top: -40px;
+}
+
+.housePride__picture {
+    width: 100%;
+}
+
+.housePride__category,
+.housePride__headline,
+.housePride__underline {
+    text-align: end;
+    cursor: text;
+    z-index: 1;
+}
+
+.housePride__headline {
+    font-size: 28px;
+    font-family: var(--titleFont);
+}
+
+.housePride__underline {
+    font-family: var(--mainfont);
+    display: block;
+    margin-top: 15px;
+}
+
+.housePride__buttonLink {
+    display: block;
+    border: 15px solid transparent;
+    border-radius: 30px;
+    background-color: var(--purple);
+    color: var(--white);
+    font-family: var(--titleFont);
+    padding: 0 40px;
+    letter-spacing: 3px;
+    width: auto;
+    white-space: nowrap;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.housePride__buttonLink:hover {
+    background-color: var(--white);
+    color: var(--lilac);
 }
