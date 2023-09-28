@@ -158,7 +158,7 @@
 
 .mysteryPin__caption {
     align-items: flex-start;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
 }
 
 .mysteryPin__picture {
@@ -235,7 +235,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px 30px 60px;
+    padding: 40px 30px 20px;
     text-align: center;
     line-height: 22px;
 }
@@ -266,7 +266,7 @@
 .exploreHouse__title--gry:hover {
     border-color: var(--white);
     background-color: var(--white);
-    color: linear-gradient(0deg,var(--gryffindorBurgund));
+    color: var(--gryffindorBurgund);
 }
 
 .exploreHouse__title--sly {
@@ -278,7 +278,7 @@
 .exploreHouse__title--sly:hover {
     border-color: var(--white);
     background-color: var(--white);
-    color: linear-gradient(0deg,var(--slytherinGreen));
+    color: var(--slytherinGreen);
 }
 
 .exploreHouse__title--rav {
@@ -290,7 +290,7 @@
 .exploreHouse__title--rav:hover {
     border-color: var(--white);
     background-color: var(--white);
-    color: linear-gradient(0deg,var(--ravenclawBlue));
+    color: var(--ravenclawBlue);
 }
 
 .exploreHouse__title--huf {
@@ -302,5 +302,5 @@
 .exploreHouse__title--huf:hover {
     border-color: var(--white);
     background-color: var(--white);
-    color: linear-gradient(0deg,var(--hufflepuffMustard));
+    color: var(--hufflepuffMustard);
 }
