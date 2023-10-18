@@ -62,23 +62,13 @@
 }
 
 .article__letter {
-  background: linear-gradient(-45deg,transparent 48%,var(--goldenHogwart));
-  background-size: 200% auto;
-  font-size: 80px;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 1s linear infinite;
-}
-
-@keyframes shine {
-    from {
-      background-position: 10%;
-    }
-    
-    to {
-      background-position: 200%;
-    }
+    background: linear-gradient(-45deg,transparent 48%,var(--goldenHogwart));
+    background-size: 200% auto;
+    font-size: 80px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 1s linear infinite;
 }
 
 .article__paragraph {
@@ -124,4 +114,16 @@
 .writtenBy__undertitle {
     font-family: var(--titleFont);
     font-size: 22px;
+}
+
+/* === ANIMATIONS === */
+
+@keyframes shine {
+    from {
+      background-position: 10%;
+    }
+    
+    to {
+      background-position: 200%;
+    }
 }
