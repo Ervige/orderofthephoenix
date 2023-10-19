@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../../index.css" rel="stylesheet" />
+    <link href="signUpMobile.css" rel="stylesheet" />
+    <title>Register</title>
+  </head>
+    <header>
+        <main>
+          <div class="menu">
+            <figure>
+            <a href="/pages/housePrideQuiz/celebrateHousePride.html"><img 
+            src="https://www.wizardingworld.com/images/icons/back-24px-13px.svg" 
+            alt="Left arrow"
+            /></a>
+        </figure>
+        <figure>
+          <img
+            src="/../../icons/mainLogo.png"
+            alt="Wizarding World logo"
+            class="menuBox__logo"
+          />
+        </figure>
+    </div>
+    </header>
+    <div>
+        <div class="sign">
+            <hr class="sign__line">
+            <img 
+            src="https://www.wizardingworld.com/images/icons/diamonds.svg"
+            alt="Three squares"
+            class="sign__picture"
+            />
+            <h3 class="sign__title">
+                Sign up
+            </h3>
+            <img 
+            src="https://www.wizardingworld.com/images/icons/diamonds.svg"
+            alt="Three squares"
+            class="sign__picture"
+            />
+            <hr class="sign__line">
+        </div>
+        <form class="form">
+            <div class="form__date">
+            <label for="form__birth">DATE OF BIRTH</label>
+                <input class="form__placeholder" type="text" placeholder="DD/MM/YYYY" name="date" maxlength="10" required />
+            </div>
+        <div class="form__email">
+            <label for="form_mail">EMAIL ADDRESS</label>
+                <input class="form__placeholder" type="text" placeholder="Enter Email" name="email" required />
+        </div>
+        <div class="form__password">
+            <label for="form_pass">PASSWORD</label>
+                <input class="form__placeholder" type="password" name="password" minlength="8" autocapitalize="none" autocomplete="off"  required />
+        </div>
+            <div class="form__name">
+                <ul class="form__list">
+                <li>
+                    <label class="form__name form__name--name" for="form_firstName">First Name</label>
+                </li>
+                <li>
+                    <input class="form__placeholder form__placeholder--name" type="text" name="name" required />
+                </li>
+                </ul>
+                <ul class="form__list">
+                <li>
+                    <label class="form__name form__name--surname" for="form_lastName">Last Name</label>
+                </li>
+                <li>
+                    <input class="form__placeholder form__placeholder--surname" type="text" name="surname" required />
+                </li>
+                </ul>
+            </div>
+     </div>
+        <div class="form__terms">
+            <p>
+                By proceeding you agree to our <a target="_blank" href="/pages/housePrideQuiz/terms.html" class="form__termsLink">Terms of Use</a> and acknowledge our <a target="_blank" href="/pages/housePrideQuiz/privacy" class="form__termsLink">Privacy Policy</a>.
+            </p>
+        </div>
+        <div class="form__button">
+            <button type="button" class="form__buttonText">SIGN UP</button>
+        </div>
+    </form>
+    <div class="form__account">
+        <hr class="form__line">
+        <h1 class="form__headline">Already have an account?</h1>
+        <button type="button" class="form__buttonText form__buttonText--logIn">LOG IN</button>
+    </div>
+    </main>
+    </footer>
+  </body>
+  <script src="../../index.js"></script>
+</html>
