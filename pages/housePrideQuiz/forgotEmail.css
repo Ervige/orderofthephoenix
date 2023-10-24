@@ -1,0 +1,92 @@
+/* === MENU  === */
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuBox__logo {
+    margin: 20px 90px;
+}
+
+/* === SIGN  === */
+
+.reset {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.reset__title {
+    font-family: var(--titleFont);
+    font-size: 36px;
+    margin: 0 8px;
+}
+
+.reset__picture {
+    margin: 0 8px;
+}
+
+.reset__undertitle {
+    font-family: var(--titleFont);
+    padding: 30px 20px;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.reset__text {
+    font-family: var(--mainFont);
+    padding: 0 20px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+/* === FORM === */
+
+.form,
+.form__email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form__placeholder {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid var(--gray);
+    background-color: transparent;
+    color: var(--gray);
+    font-size: 20px;
+    border-radius: 3px;
+    min-height: 60px;
+    padding: 0 20px;
+    margin: 10px 0;
+    font-family: var(--mainFont);
+}
+
+.form__button {
+    padding: 0 20px;
+}
+
+.form__buttonText {
+    border-radius: 30px;
+    width: 100%;
+    height: 58px;
+    border: 1px solid var(--purple);
+    color: var(--white);
+    background-color: var(--purple);
+    font: var(--titleFont);
+}
+
+.form__buttonText:hover {
+    color: var(--purple);
+    background-color: var(--white);
+    border: 1px solid var(--purple);
+}
