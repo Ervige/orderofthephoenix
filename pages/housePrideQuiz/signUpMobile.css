@@ -18,17 +18,18 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 30px;
+    margin: 20px;
 }
 
 .sign__line {
-    padding: 0 30px;
+    width: 100%;
 }
 
 .sign__title {
     font-family: var(--titleFont);
     font-size: 36px;
     margin: 0 8px;
+    text-align: center;
 }
 
 .sign__picture {

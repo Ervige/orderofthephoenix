@@ -1,0 +1,260 @@
+/* === LEGACY === */
+
+.legacy,
+.rewards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.legacy__logoImg {
+    padding: 100px 20px 10px;
+    width: 100%;
+}
+
+.legacy__title {
+    font-family: var(--titleFont);
+    text-align: center;
+    padding: 0 20px 30px;
+    line-height: 26px;
+    color: var(--white);
+    font-size: 20px;
+}
+
+.legacy__link {
+    text-decoration: none;
+    font-family: var(--mainFont);
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 30px;
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
+    width: 60%;
+    letter-spacing: 2px;
+}
+
+/* === REWARDS === */
+
+.rewards {
+    padding: 60px 20px 30px;
+    background-image: url(https://www.wizardingworld.com/assets/_next/static/images/background-stars@2x-14b9aebb404eb0606452427d794020cf.jpg);
+}
+
+.rewards__title,
+.rewards__undertitle {
+    color: var(--white);
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 36px;
+    padding: 10px 0;
+}
+
+.rewards__title {
+    font-family: var(--titleFont);
+}
+
+.rewards__undertitle {
+    font-family: var(--mainFont);
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* === STEPS === */
+
+.steps {
+    border: 2px solid var(--purple);
+    box-sizing: border-box;
+    padding: 3px 3px 0;
+    margin: 0 20px;
+    position: relative;
+}
+
+.steps__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.steps__containerBox {
+    display: flex;
+    background: var(--borderPurple);
+    width: 100%;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps__letter {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid var(--borderPurple);
+    min-height: 112px;
+    margin: 5px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps__title,
+.steps__number {
+    font-family: var(--titleFont);
+    text-transform: uppercase;
+    margin: 2px;
+}
+
+.steps__title {
+    font-size: 16px;
+}
+
+.steps__link {
+    font-family: var(--titleFont);
+    color: var(--white);
+    text-decoration: none;
+    padding: 30px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.steps__content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--backgroundPurple);
+    position: relative;
+}
+
+.steps__square {
+    top: 0px;
+    left: 10%;
+    position: absolute;
+}
+
+.steps__squareOuter {
+    position: absolute;
+    bottom: -2px;
+    left: -6px;
+    border-left: 3px solid var(--squareBackground);
+    border-right: 3px solid var(--squareBackground);
+    border-top: 3px solid var(--squareBackground);
+    transform: rotate(45deg);
+    border-bottom: 28px solid var(--squareBackground);
+}
+
+.steps__squareOuter1 {
+    position: absolute;
+    bottom: -2px;
+    left: 11px;
+    border-left: 3px solid var(--squareBackground);
+    border-right: 3px solid var(--squareBackground);
+    border-top: 3px solid var(--squareBackground);
+    transform: rotate(135deg);
+    border-bottom: 28px solid var(--squareBackground);
+}
+
+.steps__squareInner {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    background: var(--backgroundPurpleTop);
+    transform: rotate(45deg);
+    left: -7px;
+    bottom: -12px;
+}
+
+.steps__squareCenter {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background: var(--squarePurple);
+    transform: rotate(45deg);
+    bottom: -5px;
+}
+
+.steps__picture {
+    width: 100%;
+}
+
+.steps__undertitle {
+    font-family: var(--titleFont);
+    font-size: 26px;
+    padding: 30px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.steps__text {
+    font-family: var(--mainFont);
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 30px;
+}
+
+.steps__button {
+    margin: 30px;
+    border-radius: 30px;
+    border: 1px solid var(--white);
+    background-color: var(--white);
+    color: var(--purple);
+    width: 50%;
+    padding: 20px 10px;
+    font-family: var(--titleFont);
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.steps__button:hover {
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+/* === UNLOCK === */
+
+.unlock {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://www.wizardingworld.com/assets/_next/static/images/background-stars@2x-14b9aebb404eb0606452427d794020cf.jpg);
+}
+
+.unlock__title,
+.unlock__undertitle,
+.unlock__link {
+    font-family: var(--titleFont);
+    text-align: center;
+}
+
+.unlock__title {
+    padding-bottom: 50px;
+}
+
+.unlock__picture {
+    width: 100%;
+}
+
+.unlock__undertitle {
+    font-size: 22px;
+    padding: 10px 0;
+    line-height: 28px;
+}
+
+.unlock__text {
+    font-family: var(--mainFont);
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+
+.unlock__link {
+    text-decoration: underline;
+    font-size: 22px;
+    padding: 20px 0;
+}
