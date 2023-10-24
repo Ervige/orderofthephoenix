@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../../index.css" rel="stylesheet" />
+    <link href="loginMobile.css" rel="stylesheet" />
+    <title>Log In</title>
+  </head>
+    <header>
+        <main>
+          <div class="menu">
+            <figure>
+            <a href="/pages/housePrideQuiz/legacyConnect.html">
+            <img 
+            src="https://www.wizardingworld.com/images/icons/back-24px-13px.svg" 
+            alt="Left arrow"
+            /></a>
+        </figure>
+        <figure>
+          <img
+            src="/../../icons/mainLogo.png"
+            alt="Wizarding World logo"
+            class="menuBox__logo"
+          />
+        </figure>
+    </div>
+    </header>
+    <div>
+        <div class="sign">
+            <hr class="sign__line">
+            <img 
+            src="https://www.wizardingworld.com/images/icons/diamonds.svg"
+            alt="Three squares"
+            class="sign__picture"
+            />
+            <h3 class="sign__title">
+                Log In
+            </h3>
+            <img 
+            src="https://www.wizardingworld.com/images/icons/diamonds.svg"
+            alt="Three squares"
+            class="sign__picture"
+            />
+            <hr class="sign__line">
+        </div>
+        <form class="form">
+        <div class="form__email">
+            <label for="email">EMAIL ADDRESS</label>
+                <input class="form__placeholder" id="email" type="text" placeholder="Enter Email" name="email" required />
+        </div>
+        <div class="form__password">
+            <label for="password">PASSWORD</label>
+                <input class="form__placeholder" id="password" type="password" name="password" minlength="8" autocapitalize="none" autocomplete="off" required />
+        </div>
+        </form>
+        <a href="forgotPassword" class="form__link">
+            Forgot password?
+        </a>
+        <div class="form__button">
+            <button type="button" class="form__buttonText">LOG IN</button>
+        </div>
+        <div class="form__account">
+            <hr class="form__line">
+            <h1 class="form__headline">Don't have an account?</h1>
+            <button type="button" class="form__buttonText form__buttonText--logIn">SIGN UP</button>
+        </div>
+    </main>
+</body>
+<script src="../../index.js"></script>
+</html>

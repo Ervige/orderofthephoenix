@@ -35,10 +35,10 @@
     margin: 0 8px;
 }
 
-/* === FORM  === */
+
+/* === FORM === */
 
 .form,
-.form__date,
 .form__email,
 .form__password {
     display: flex;
@@ -63,31 +63,10 @@
     font-family: var(--mainFont);
 }
 
-.form__placeholder--name,
-.form__placeholder--surname {
-    width: 100%;
-}
-
-.form__name {
-    display: flex;
-}
-
-.form__list {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-
-.form__terms {
-    font-family: var(--mainFont);
-    padding: 10px 20px;
-    line-height: 26px;
-    color: var(--gray);
-}
-
-.form__termsLink {
+.form__link {
     color: var(--purple);
+    padding: 0 20px;
+    font-family: var(--mainFont);
 }
 
 .form__button {
