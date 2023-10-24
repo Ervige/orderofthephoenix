@@ -64,7 +64,7 @@
 .steps {
     border: 2px solid var(--purple);
     box-sizing: border-box;
-    padding: 3px 3px 0;
+    padding: 3px 3px;
     margin: 0 20px;
     position: relative;
 }
@@ -74,16 +74,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-}
-
-.steps__containerBox {
-    display: flex;
-    background: var(--borderPurple);
-    width: 100%;
-    margin-bottom: 5px;
-    justify-content: center;
     align-items: center;
+    background: var(--borderPurple);
+    margin-bottom: 5px;
 }
 
 .steps__letter {
@@ -107,6 +100,10 @@
 
 .steps__title {
     font-size: 16px;
+}
+
+.steps__number {
+    font-size: 30px;
 }
 
 .steps__link {
@@ -134,26 +131,22 @@
     position: absolute;
 }
 
+.steps__squareOuter,
 .steps__squareOuter {
     position: absolute;
     bottom: -2px;
-    left: -6px;
-    border-left: 3px solid var(--squareBackground);
-    border-right: 3px solid var(--squareBackground);
-    border-top: 3px solid var(--squareBackground);
-    transform: rotate(45deg);
+    border: 3px solid var(--squareBackground);
     border-bottom: 28px solid var(--squareBackground);
 }
 
-.steps__squareOuter1 {
-    position: absolute;
-    bottom: -2px;
+.steps__squareOuter--left {
+    left: -6px;
+    transform: rotate(45deg);
+}
+
+.steps__squareOuter--right {
     left: 11px;
-    border-left: 3px solid var(--squareBackground);
-    border-right: 3px solid var(--squareBackground);
-    border-top: 3px solid var(--squareBackground);
     transform: rotate(135deg);
-    border-bottom: 28px solid var(--squareBackground);
 }
 
 .steps__squareInner {
