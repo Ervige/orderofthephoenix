@@ -56,6 +56,11 @@
     --deepGreen: #07312a;
     --slytherinGreen: #05241f 50%,#043d34,#083831;
     --goldenHogwart: #b6a571, #cdb373, #e7da9a;
+    --borderPurple: linear-gradient(180deg,#6c62bd,#433b86 42.71%);
+    --squarePurple: linear-gradient(to bottom right,#c2bbff,#5a5399);
+    --backgroundPurple: linear-gradient(-15deg,#1e1e40 37%,#363166 67.93%);
+    --backgroundPurpleTop: #363166;
+    --squareBackground: rgba(36,34,68,.7);
 }
 
 /* === HTML / BODY STYLES === */
