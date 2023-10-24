@@ -1,0 +1,116 @@
+/* === MENU  === */
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuBox__logo {
+    margin: 20px 90px;
+}
+
+/* === SIGN  === */
+
+.sign {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.sign__line {
+    padding: 0 30px;
+}
+
+.sign__title {
+    font-family: var(--titleFont);
+    font-size: 36px;
+    margin: 0 8px;
+}
+
+.sign__picture {
+    margin: 0 8px;
+}
+
+/* === FORM === */
+
+.form,
+.form__email,
+.form__password {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form__placeholder {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid var(--gray);
+    background-color: transparent;
+    color: var(--gray);
+    font-size: 20px;
+    border-radius: 3px;
+    min-height: 60px;
+    padding: 0 20px;
+    margin: 10px 0;
+    font-family: var(--mainFont);
+}
+
+.form__link {
+    color: var(--purple);
+    padding: 0 20px;
+    font-family: var(--mainFont);
+}
+
+.form__button {
+    padding: 30px 20px;
+}
+
+.form__buttonText {
+    border-radius: 30px;
+    width: 100%;
+    height: 58px;
+    border: 1px solid var(--purple);
+    color: var(--white);
+    background-color: var(--purple);
+    font: var(--titleFont);
+}
+
+.form__buttonText:hover {
+    color: var(--purple);
+    background-color: var(--white);
+    border: 1px solid var(--purple);
+}
+
+.form__account {
+    padding: 20px;
+}
+
+.form__line {
+    width: 100%;
+    border-bottom: 1px solid var(--gray);
+}
+
+.form__headline {
+    font-family: var(--titleFont);
+    font-size: 26px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.form__buttonText--logIn {
+    background-color: transparent;
+    border: 1px solid var(--white);
+    margin-bottom: 40px;
+}
+
+.form__buttonText--logIn:hover {
+    background-color: var(--white);
+    color: var(--purple);
+}
