@@ -1,0 +1,117 @@
+/* === HOUSE === */
+
+.house {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.house__headline {
+    font-family: var(--titleFont);
+    font-size: 26px;
+    padding: 20px 30px;
+}
+
+.house__text {
+    font-size: 18px;
+    padding: 10px 30px;
+    font-family: var(--mainFont);
+    text-align: center;
+    line-height: 26px;
+}
+
+/* === FAVOURITE === */
+
+.favourite {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 30px;
+    background-color: var(--darkGray);
+    border-radius: 5px;
+}
+
+.favourite__photo {
+    width: 100%;
+}
+
+.favourite__title {
+    font-size: 22px;
+    font-family: var(--titleFont);
+    padding: 20px 10px;
+    text-align: center;
+    color: var(--white);
+}
+
+.favourite__text {
+    font-size: 16px;
+    font-family: var(--mainFont);
+    padding: 10px 30px;
+    text-align: center;
+    line-height: 20px;
+    color: var(--white);
+}
+
+.favourite__link {
+    border-radius: 30px;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid var(--white);
+    padding: 20px 50px;
+    margin: 30px 0;
+    font-size: 16px;
+}
+
+.favourite__link:hover {
+    color: var(--darkGray);
+    background-color: var(--white);
+}
+
+/* === SECTION === */
+
+.section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 30px;
+}
+
+.section__picture {
+    height: 200px;
+    width: 270px;
+}
+
+.section__photo {
+    width: 270px;
+    border-radius: 5px;
+    object-fit: cover;
+    height: 200px;
+}
+
+.section__title {
+    font-size: 20px;
+    font-family: var(--titleFont);
+    color: var(--white);
+    padding: 30px 0 20px;
+    text-align: center;
+}
+
+.section__text {
+    font-size: 16px;
+    font-family: var(--mainFont);
+    text-align: center;
+    padding: 0 20px 30px;
+    line-height: 20px;
+}
+
+.section__link {
+    text-decoration: none;
+    font-family: var(--mainFont);
+    color: var(--white);
+    padding-bottom: 50px;
+}
+
+.section__link:hover {
+    color: var(--lilac);
+}
