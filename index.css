@@ -500,16 +500,19 @@ body {
 
 /* === MAGICALFEATURES === */
 
+.magicalFeatures {
+    margin: 20px;
+}
+
 .magicalFeatures__container {
     display: flex;
     justify-content: center;
     position: relative;
-    margin: 20px;
+    margin: 20px 0 0;
 }
 
 .magicalFeatures__head {
     font-family: var(--titleFont);
-    padding: 20px;
 }
 
 .magicalFeatures__content {
