@@ -34,11 +34,11 @@
 
 .housePride__category {
     margin: 15px 0;
-    font-family: var(--mainfont);
+    font-family: var(--mainFont);
 }
 
 .housePride__underline {
-    font-family: var(--mainfont);
+    font-family: var(--mainFont);
     display: block;
     margin-top: 15px;
     color: var(--gray);
@@ -123,7 +123,7 @@
 }
 
 .writtenBy__title {
-    font-family: var(--mainfont);
+    font-family: var(--mainFont);
     font-size: 14px;
     padding: 10px 0;
 }
