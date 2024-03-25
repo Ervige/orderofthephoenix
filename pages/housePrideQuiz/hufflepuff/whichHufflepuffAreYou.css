@@ -1,0 +1,146 @@
+/* === HOUSE PRIDE === */
+
+.housePride {
+    position: relative;
+    padding-bottom: 50px;
+    height: 100%;
+}
+
+.housePride__caption {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    margin-top: -190px;
+}
+
+.housePride__picture {
+    width: 100%;
+}
+
+.housePride__category,
+.housePride__headline,
+.housePride__underline {
+    text-align: start;
+    cursor: text;
+    z-index: 1;
+}
+
+.housePride__headline {
+    font-size: 28px;
+    font-family: var(--titleFont);
+}
+
+.housePride__category {
+    margin: 15px 0;
+    font-family: var(--mainFont);
+}
+
+.housePride__underline {
+    font-family: var(--mainFont);
+    display: block;
+    margin-top: 15px;
+    color: var(--gray);
+}
+
+/* === ARTICLE === */
+
+.article {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    background-color: var(--white);
+    text-align: justify;
+    color: var(--black);
+}
+
+.article__intro {
+    line-height: 26px;
+    padding: 20px 0;
+    font-family: var(--titleFont);
+}
+
+.article__letter {
+    background: linear-gradient(-45deg,transparent 48%,var(--goldenHogwart));
+    background-size: 200% auto;
+    font-size: 80px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 1s linear infinite;
+}
+
+.article__paragraph {
+    font-family: var(--mainFont);
+    line-height: 22px;
+    padding: 10px 0;
+}
+
+.article__headline {
+    font-family: var(--titleFont);
+    text-align: left;
+    padding: 20px 0 10px;
+    color: var(--gray);
+    font-size: 30px;
+}
+
+.article__sublink {
+    color: var(--black);
+    padding: 10px 0;
+}
+
+.article__container {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article__image {
+    width: 100%;
+}
+
+.article__subtitle {
+    font-family: var(--mainFont);
+    font-size: 16px;
+}
+
+/* === WRITTEN BY === */
+
+.writtenBy {
+    display: flex;
+    padding: 20px 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.writtenBy__line {
+    width: 40%;
+    color: var(--gray);
+    padding: 0 30px;
+}
+
+.writtenBy__title {
+    font-family: var(--mainFont);
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.writtenBy__undertitle {
+    font-family: var(--titleFont);
+    font-size: 22px;
+}
+
+/* === ANIMATIONS === */
+
+@keyframes shine {
+    from {
+      background-position: 10%;
+    }
+    
+    to {
+      background-position: 200%;
+    }
+}
