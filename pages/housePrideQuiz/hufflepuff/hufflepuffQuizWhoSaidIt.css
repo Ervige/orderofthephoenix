@@ -1,0 +1,154 @@
+/* === QUIZ === */
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz__headline {
+    font-family: var(--titleFont);
+    font-size: 14px;
+    padding: 20px 0 10px;
+}
+
+.quiz__stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.quiz__photo {
+  position: relative;
+}
+
+.quiz__picture {
+  margin: 50px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 0px 9px 2px var(--lilac);
+  position: relative;
+  z-index: 3;
+}
+
+.quiz__background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 1;
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 100%;
+        z-index: 2;
+        box-shadow: 0 0 20px 20px var(--boxShadow);
+    }
+
+    &::before {
+        width: 150px;
+        height: 150px;
+        background-color: var(--boxShadowBefore);
+    }
+
+    &::after {
+        width: 250px;
+        height: 250px;
+        background-color: var(--boxShadowAfter);
+        animation: circle-size 1s linear infinite alternate;
+    }
+  }
+
+.quiz__shadow {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        border-radius: 100%;
+        box-shadow: 10px -55px 30px 15px var(--boxShadowPurple), 24px -10px 47px 10px var(--boxShadowLilac), -21px -25px 97px 10px var(--boxShadowTurquoise), 51px 5px 17px 10px var(--boxShadowSea), 3px 2px 77px 10px var(--boxShadowPink);
+        animation: shadow-rotate 4s linear infinite;
+        z-index: 2;
+    }
+
+/* === HUFFLEPUFF === */
+
+.hufflepuff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 60px;
+  text-align: center;
+}
+
+.hufflepuff__title,
+.hufflepuff__undertitle {
+  font-family: var(--titleFont);
+  padding: 10px 0;
+}
+
+.hufflepuff__undertitle {
+  color: var(--gray);
+}
+
+.hufflepuff__paragraph {
+  font-family: var(--mainFont);
+  line-height: 22px;
+  padding: 10px 0 20px;
+}
+
+.hufflepuff__button {
+  border: 1px solid transparent;
+  border-radius: 50px;
+  background-color: var(--purple);
+  padding: 15px 40px;
+}
+
+.hufflepuff__button:hover {
+  background-color: var(--white);
+  color: var(--lilac);
+}
+
+.hufflepuff__button,
+.hufflepuff__more {
+  font-family: var(--titleFont);
+  text-decoration: none;
+  color: var(--white);
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+
+.hufflepuff__more {
+  padding: 20px;
+}
+
+.hufflepuff__more:hover {
+  color: var(--purple);
+}
+
+/* === ANIMATIONS === */
+
+@keyframes circle-size {
+    from {
+        width: 150px;
+        height: 150px;
+    }
+    to {
+        width: 200px;
+        height: 200px;
+        filter: blur(50px);
+    }
+}
+
+@keyframes shadow-rotate {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
