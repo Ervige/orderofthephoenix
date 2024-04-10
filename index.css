@@ -62,6 +62,14 @@
     --backgroundPurple: linear-gradient(-15deg,#1e1e40 37%,#363166 67.93%);
     --backgroundPurpleTop: #363166;
     --squareBackground: rgba(36,34,68,.7);
+    --boxShadow: #1c084f;
+    --boxShadowBefore: #1a084e;
+    --boxShadowAfter: #2f1e5f;
+    --boxShadowLilac: #aab3d2;
+    --boxShadowPurple: #823ca6;
+    --boxShadowTurquoise: #5acee3;
+    --boxShadowSea: #1b7d8f;
+    --boxShadowPink: #f30bf5;
 }
 
 /* === HTML / BODY STYLES === */
