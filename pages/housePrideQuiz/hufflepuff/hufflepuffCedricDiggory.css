@@ -155,15 +155,3 @@
     font-family: var(--titleFont);
     font-size: 22px;
 }
-
-/* === ANIMATIONS === */
-
-@keyframes shine {
-    from {
-      background-position: 10%;
-    }
-    
-    to {
-      background-position: 200%;
-    }
-}

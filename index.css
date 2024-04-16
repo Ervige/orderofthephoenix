@@ -677,3 +677,13 @@ body {
         transform: translateX(0px);
     }
 }
+
+@keyframes shine {
+    from {
+      background-position: 10%;
+    }
+    
+    to {
+      background-position: 200%;
+    }
+}
