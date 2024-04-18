@@ -49,7 +49,7 @@
 .article {
     display: flex;
     flex-direction: column;
-    padding: 20px 30px;
+    padding: 20px 0;
     background-color: var(--white);
     text-align: justify;
     color: var(--black);
@@ -57,7 +57,7 @@
 
 .article__intro {
     line-height: 26px;
-    padding: 20px 0;
+    padding: 20px;
     font-family: var(--titleFont);
 }
 
@@ -75,6 +75,7 @@
     font-family: var(--mainFont);
     line-height: 22px;
     padding: 10px 0;
+    text-align: justify;
 }
 
 .article__headline {
@@ -88,12 +89,12 @@
 .article__sublink {
     color: var(--black);
     padding: 10px 0;
+    text-align: center;
 }
 
 .article__container {
     margin: 20px;
     display: flex;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -104,13 +105,14 @@
 .article__subtitle {
     font-family: var(--mainFont);
     font-size: 16px;
+    text-align: center;
 }
 
 /* === WRITTEN BY === */
 
 .writtenBy {
     display: flex;
-    padding: 20px 0;
+    padding: 20px;
     width: 100%;
     align-items: center;
     justify-content: space-between;
@@ -125,10 +127,11 @@
 .writtenBy__title {
     font-family: var(--mainFont);
     font-size: 14px;
-    padding: 10px 0;
+    padding: 10px 20px;
 }
 
 .writtenBy__undertitle {
     font-family: var(--titleFont);
     font-size: 22px;
+    padding: 0 20px;
 }
