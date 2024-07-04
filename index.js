@@ -21,7 +21,3 @@ const closeMenuButton = document.getElementById("closeMenuButton");
 
 openMenuButton.addEventListener("click", openCloseMenu);
 closeMenuButton.addEventListener("click", openCloseMenu);
-
-function showMessage() {
-    document.getElementById("message").innerHTML = "We don't often study trees, but I thought it time we branched out."
-}
