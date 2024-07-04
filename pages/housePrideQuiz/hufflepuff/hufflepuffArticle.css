@@ -108,6 +108,28 @@
     text-align: center;
 }
 
+.article__box {
+    display: flex;
+    justify-content: center;
+}
+
+.article__button {
+    border: 1px solid var(--lightMustard);
+    background-color: var(--lightMustard);
+    color: var(--white);
+    font-family: var(--titleFont);
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+
+.article__button:hover {
+    border: 1px solid var(--white);
+    background-color: var(--white);
+    color: var(--lightMustard);
+}
+
 /* === WRITTEN BY === */
 
 .writtenBy {
